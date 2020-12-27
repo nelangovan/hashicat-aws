@@ -62,7 +62,7 @@ resource "aws_security_group" "hashicat" {
 }
 
 resource "random_id" "app-server-id" {
-  prefix      = "${var.prefix}-hashicat-"
+  prefix      = "${var.prefix}-hashicat1-"
   byte_length = 8
 }
 
